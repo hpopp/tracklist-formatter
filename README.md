@@ -1,24 +1,40 @@
-# tracklist-formatter
+# Tracklist Formatter
 
-## Project setup
-```
-npm install
+Format your Denon and VDJ tracklist exports.
+
+## Project Dependencies
+
+This project requires these dependencies to be installed and running:
+
+- Node.js 16.x LTS
+
+## Getting Started
+
+1. Clone the repository.
+
+```shell
+git clone git@github.com:hpopp/tracklist-formatter.git && cd tracklist-formatter
 ```
 
-### Compiles and hot-reloads for development
+2. Fetch dependencies.
+
+```shell
+npm i
+```
+
+3. Run the project. Access it in your browser at http://localhost:8080.
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Contributing
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Formatting
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project uses [Prettier](https://prettier.io) for formatting. Add a hook in your editor of choice to
+run it after a save.
+
+### Commits
+
+Git commit subjects use the [Karma style](http://karma-runner.github.io/5.0/dev/git-commit-msg.html).
