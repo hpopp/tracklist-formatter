@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <nav class="navbar">
+    <strong>Tracklist Formatter</strong>
+  </nav>
+  <MainView />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainView from "./views/Main.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MainView,
+  },
+};
 </script>
 
 <style>
+html,
+body {
+  margin: 0;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  -webkit-font-smoothing: antialiased;
   color: #2c3e50;
-  margin-top: 60px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  text-align: left;
 }
 </style>
