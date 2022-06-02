@@ -1,16 +1,16 @@
 <template>
-  <nav class="navbar">
-    <strong>Tracklist Formatter</strong>
-  </nav>
+  <AppHeader />
   <MainView />
 </template>
 
 <script>
-import MainView from "./views/Main.vue";
+import AppHeader from "./components/AppHeader.vue";
+import MainView from "./views/MainView.vue";
 
 export default {
   name: "App",
   components: {
+    AppHeader,
     MainView,
   },
 };
@@ -28,12 +28,5 @@ body {
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-}
-
-.navbar {
-  background-color: #222;
-  color: white;
-  padding: 1em;
-  text-align: left;
 }
 </style>
