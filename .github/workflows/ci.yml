@@ -13,6 +13,7 @@ jobs:
       - id: build-and-deploy
         uses: xRealNeon/VuePagesAction@1.0.1
         with:
+          cname: formatter.djstormdrain.com
           username: "hpopp"
           reponame: "tracklist-formatter"
           token: ${{ secrets.GITHUB_TOKEN }}
