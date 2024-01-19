@@ -1,6 +1,8 @@
 # Tracklist Formatter
 
-Format your Denon and VDJ tracklist exports.
+> Format your Pioneer, Denon and VirtualDJ tracklist exports.
+
+This project is hosted publicly at https://formatter.djstormdrain.com/.
 
 ## Project Dependencies
 
