@@ -10,7 +10,7 @@ jobs:
     name: Build & Deploy
     steps:
       - uses: actions/checkout@v2
-      - id: Build and deploy
+      - id: build-and-deploy
         uses: xRealNeon/VuePagesAction@1.0.1
         with:
           username: "hpopp"
