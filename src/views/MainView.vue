@@ -8,10 +8,18 @@
           placeholder="Paste a CSV..."
           class="textbox"
         />
+        <span>
+          Open your exported tracklist in any text editor of your choice and
+          copypaste the contents here. Supported export formats: Pioneer
+          Rekordbox TXT, Denon Engine DJ CSV, and VirtualDJ CSV.
+        </span>
       </div>
       <div class="flex-item">
         <h3>Output</h3>
         <p class="textbox output">{{ outputTracklist }}</p>
+        <span>
+          Formatted tracklist will show up here as a list of "Artist - Title".
+        </span>
       </div>
     </div>
   </div>
@@ -68,5 +76,9 @@ export default {
 
 .output {
   background-color: #eee;
+}
+
+span {
+  color: #ccc;
 }
 </style>

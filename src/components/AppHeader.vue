@@ -1,7 +1,8 @@
 <template>
   <nav class="navbar">
-    <img src="~@/assets/stormdrain.png" width="44" />
+    <img src="~@/assets/stormdrain.jpg" width="44" />
     <span class="navbar-text">Tracklist Formatter</span>
+    <span class="navbar-text gray">v0.2.1</span>
   </nav>
 </template>
 
@@ -16,6 +17,10 @@ export default {
   font-size: 1.2em;
   line-height: 44px;
   text-align: center;
+}
+
+.gray {
+  color: #aaa;
 }
 
 .navbar {
