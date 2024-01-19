@@ -22,9 +22,9 @@ function concatErrors(errors) {
 
 function formatLine(data) {
   if (data["Artist"] == "") {
-    return data["Title"];
+    return data["Title"] || data["Track Title"];
   }
-  return `${data["Artist"]} - ${data["Title"]}`;
+  return `${data["Artist"]} - ${data["Title"] || data["Track Title"]}`;
 }
 
 export { formatTracklist };
